@@ -68,6 +68,7 @@ The plugin leverages GPU acceleration via CuPy for computationally intensive tas
     # pip install cupy-cudaXXX # Replace XXX with your CUDA version, e.g., cupy-cuda11x or cupy-cuda12x
     ```
 2.  Place the plugin files (`confocal_projection_frame.py` and `confocal_projection_controller.py`, and any other necessary modules) into the appropriate plugin directory for the Navigate Software. (Please provide specific instructions here based on how Navigate handles plugins).
+3.  Follow the instructions to integrate OPM Analysis into Navigate https://thedeanlab.github.io/navigate/03_contributing/06_plugin/plugin_home.html
 
 ## How to Use
 
