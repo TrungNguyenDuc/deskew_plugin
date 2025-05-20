@@ -11,6 +11,9 @@ This plugin provides a suite of tools for processing and analyzing Optical Proje
 
 The plugin leverages GPU acceleration via CuPy for computationally intensive tasks, with CPU fallbacks for broader compatibility.
 
+![image (11)](https://github.com/user-attachments/assets/a5396bd2-7f1f-40cf-9d04-1b6e9d6147d8)
+
+
 ## Features
 
 * **Comprehensive Data Processing:**
@@ -22,11 +25,14 @@ The plugin leverages GPU acceleration via CuPy for computationally intensive tas
     * **Resolution Estimation (Decorrelation Analysis):**
         * Calculates resolution and Signal-to-Noise Ratio (SNR) from Maximum Intensity Projections (MIPs) of the deskewed data (XY, XZ, YZ planes).
         * Outputs results in specified physical units (e.g., µm).
+        ![image (13)](https://github.com/user-attachments/assets/47c48be2-0aff-49b5-a082-506ffd1c1118)
     * **PSF Fitting:**
         * Analyzes 3D images of beads or point-like structures to determine experimental Point Spread Function characteristics.
         * Fits Gaussian profiles to line profiles through identified particles to calculate FWHM in X, Y, and Z.
         * User-configurable parameters: ROI padding, ROI radius, intensity threshold for bead detection, R² fit quality threshold.
         * Optional GPU acceleration for PSF data preparation steps.
+        ![image (12)](https://github.com/user-attachments/assets/b3820530-608c-42e9-8241-349f027a5839)
+
 * **Interactive GUI:**
     * Intuitive tabbed interface for Deskewing, Decorrelation, and PSF Fitting parameters.
     * File browser for selecting 3D TIFF input stacks.
