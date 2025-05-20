@@ -7,7 +7,7 @@ OPM Analysis Navigate Plugin
 
 # Advanced OPM Analysis Plugin for Navigate Software
 
-This plugin provides a suite of tools for processing and analyzing Optical Projection Microscopy (OPM) and Light-Sheet Microscopy (LSM) data, including deskewing, decorrelation analysis for resolution estimation, and Point Spread Function (PSF) fitting. It is designed to be integrated into the **Navigate Software** (please replace with the actual name of your host software if different).
+This plugin provides a suite of tools for processing and analyzing Optical Projection Microscopy (OPM) and Light-Sheet Microscopy (LSM) data, including deskewing, decorrelation analysis for resolution estimation, and Point Spread Function (PSF) fitting. It is designed to be integrated into the **Navigate Software** https://github.com/TheDeanLab/navigate.
 
 The plugin leverages GPU acceleration via CuPy for computationally intensive tasks, with CPU fallbacks for broader compatibility.
 
@@ -47,8 +47,8 @@ The plugin leverages GPU acceleration via CuPy for computationally intensive tas
 
 ## Requirements
 
-* Python 3.x
-* Navigate Software (Host Application - *please specify version if applicable*)
+* Python 3.9
+* Navigate Software (Host Application - *please specify version if applicable*) https://github.com/TheDeanLab/navigate
 * **Required Python Libraries:**
     * `numpy`
     * `scipy`
