@@ -1,0 +1,6 @@
+name: OPM
+view: Popup # Tab or Popup
+
+acquisition_modes: 
+  - name: OPM
+    file_name: opm_acquisition.py
