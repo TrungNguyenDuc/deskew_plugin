@@ -1,12 +1,9 @@
 <h1 align="center">
 <img src="https://github.com/TheDeanLab/navigate-plugin-template/blob/main/plugin-icon.jpg" width="200" height="200"/>
 
-navigate-plugin-template
+OPM Analysis Navigate Plugin
 	
-<h2 align="center">
-	A Template for Creating Plugins for navigate
-</h2>
-</h1>
+
 
 # Advanced OPM Analysis Plugin for Navigate Software
 
